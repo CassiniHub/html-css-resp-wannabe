@@ -53,15 +53,9 @@
   #steps .right img {
     height: auto;
     max-height: 200px;
-    width: 60%;
+    width: 58%;
   }
 
-  #steps .row img {
-    /* per centrare orizzontalmente */
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
   /* ---------------------------------------- */
 
@@ -92,15 +86,12 @@
     height: auto;
     max-height: 200px;
     max-width: 40%;
+
+    padding: 10%;
   }
 
   #why .row img {
-    /* per centrare orizzontalmente */
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 
-    padding: 10%;
   }
   /* ---------------------------------------- */
 
@@ -110,9 +101,5 @@
     width: 100%;
 
     margin: 0;
-  }
-
-  img {
-    /* max-width: 100%; */
   }
 }
