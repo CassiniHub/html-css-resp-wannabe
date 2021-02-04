@@ -1,0 +1,216 @@
+@media screen and (max-width: 768px) {
+
+  /* BLOCCO LEZIONI */
+  #lezioni{
+    padding: 0 30px;
+    margin-top: 30px;
+  }
+
+  h1{
+    margin-top: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #lezioni .row>.left {
+    margin-bottom: 30px;
+  }
+
+  #lezioni .left img,
+  #lezioni .right img {
+    height: auto;
+    max-height: 200px;
+    max-width: 70%;
+  }
+
+
+  /* ---------------------------------------- */
+
+
+  /* BLOCCO STEPS */
+  #steps{
+    padding: 0 30px;
+    margin: 30px 0;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #steps .row>.central{
+    margin: 30px 0;
+  }
+
+  #steps .left img,
+  #steps .central img,
+  #steps .right img {
+    height: auto;
+    max-height: 260px;
+    width: 29%;
+  }
+
+
+  /* ---------------------------------------- */
+
+
+  /* BLOCCO WHY */
+  #why{
+    padding: 0 30px;
+    margin-bottom: 30px;
+  }
+
+  #why .row>.first{
+    margin: 0;
+  }
+
+  #why .row>.first hr,
+  #why .row>.second hr{
+    margin-top: 40px;
+  }
+
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 50px;
+  }
+
+  #why .first img,
+  #why .second img,
+  #why .third img {
+    height: auto;
+    max-height: 200px;
+    max-width: 40%;
+
+    padding: 4.37%;
+  }
+
+  #why .row img {
+
+  }
+
+
+  /* ---------------------------------------- */
+
+
+  /* COMMON */
+  .row{
+    width: 100%;
+
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+
+  /* BLOCCO LEZIONI */
+  #lezioni{
+    padding: 0 30px;
+    margin-top: 30px;
+  }
+
+  h1{
+    margin-top: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #lezioni .row>.left {
+    margin-bottom: 30px;
+  }
+
+  #lezioni .left img,
+  #lezioni .right img {
+    height: auto;
+    max-height: 200px;
+    max-width: 70%;
+  }
+
+
+  /* ---------------------------------------- */
+
+
+  /* BLOCCO STEPS */
+  #steps{
+    padding: 0 30px;
+    margin: 30px 0;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #steps .row>.central{
+    margin: 30px 0;
+  }
+
+  #steps .left img,
+  #steps .central img,
+  #steps .right img {
+    height: auto;
+    max-height: 200px;
+    width: 58%;
+  }
+
+
+  /* ---------------------------------------- */
+
+
+  /* BLOCCO WHY */
+  #why{
+    padding: 0 30px;
+    margin-bottom: 30px;
+  }
+
+  #why .row>.first{
+    margin: 0;
+  }
+
+  #why .row>.first hr,
+  #why .row>.second hr{
+    margin-top: 40px;
+  }
+
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 50px;
+  }
+
+  #why .first img,
+  #why .second img,
+  #why .third img {
+    height: auto;
+    max-height: 200px;
+    max-width: 40%;
+
+    padding: 10%;
+  }
+
+  #why .row img {
+
+  }
+
+
+  /* ---------------------------------------- */
+
+
+  /* COMMON */
+  .row{
+    width: 100%;
+
+    margin: 0;
+  }
+}
