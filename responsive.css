@@ -22,9 +22,10 @@
 
   #lezioni .left img,
   #lezioni .right img {
-    display: block;
-
     height: auto;
+    max-height: 180px;
+
+    max-width: 100%;
   }
 
   /* ---------------------------------------- */
@@ -50,9 +51,17 @@
   #steps .left img,
   #steps .central img,
   #steps .right img {
-    display: block;
-
     height: auto;
+    max-height: 180px;
+
+    max-width: 100%;
+  }
+
+  #steps .row img {
+    /* per centrare orizzontalmente */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   /* ---------------------------------------- */
@@ -84,10 +93,20 @@
     margin-top: 50px;
   }
 
-  #why .first img {
-    display: block;
-
+  #why .first img,
+  #why .second img,
+  #why .third img {
     height: auto;
+    max-height: 70px;
+
+    max-width: 80%;
+  }
+
+  #why .row img {
+    /* per centrare orizzontalmente */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
   /* ---------------------------------------- */
 
@@ -100,6 +119,6 @@
   }
 
   img {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 }
