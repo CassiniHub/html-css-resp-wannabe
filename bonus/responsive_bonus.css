@@ -52,8 +52,8 @@
   #steps .central img,
   #steps .right img {
     height: auto;
-    max-height: 260px;
-    width: 29%;
+
+    width: 50%;
   }
 
 
@@ -103,6 +103,10 @@
     width: 100%;
 
     margin: 0;
+  }
+
+  *{
+    box-sizing: border-box;
   }
 }
 
@@ -161,8 +165,8 @@
   #steps .central img,
   #steps .right img {
     height: auto;
-    max-height: 200px;
-    width: 58%;
+
+    width: 50%;
   }
 
 
@@ -193,14 +197,9 @@
   #why .second img,
   #why .third img {
     height: auto;
-    max-height: 200px;
     max-width: 40%;
 
     padding: 10%;
-  }
-
-  #why .row img {
-
   }
 
 
@@ -212,5 +211,9 @@
     width: 100%;
 
     margin: 0;
+  }
+
+  *{
+    box-sizing: border-box;
   }
 }
